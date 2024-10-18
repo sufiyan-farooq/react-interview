@@ -1,0 +1,91 @@
+.hero{
+  background-color: #5844ec
+
+  ;
+  width: 100%;
+  padding: 40px;
+ height: 550px;
+ z-index: -1;
+}
+
+.hero-head h1{
+text-align: center;
+color: #fff;
+font-size: 60px;
+padding-top: 50px;
+}
+.popular-laravel{
+  display: flex;
+  gap: 20px;
+}
+
+.popular-laravel button{
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: #fff;
+  font-size: 20px;
+  margin-top: 10px;
+}
+.hero-card{
+  margin-top: -170px;
+}
+.content-btn button{
+
+  border: none;
+  font-size: 20px;
+
+  border-radius: 22px;
+  padding: 8px 25px;
+  outline: none;
+  background-color: #5849c7
+
+  ;
+  color: #fff;
+  border: 1px solid #5849c7;
+  margin-left: 10px;
+}
+.popular-laravel button:hover{
+  text-decoration: underline;
+}
+
+.content-btn button:hover{
+  background-color: blue;
+  border: 1px solid #5849c7;
+
+}
+.buttons{
+  padding-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+
+}
+
+.card{
+  margin-top: 40px;
+}
+@media screen and (max-width:1024px) {
+  .hero{
+      padding: 0px;
+  }
+}
+
+@media screen and (max-width:780px) {
+.hero-head h1{
+  font-size: 40px;
+}
+.buttons{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+  text-align: center;
+  padding-top: 40px;
+}
+.content-btn button{
+  margin-top: 15px;
+
+}
+}
